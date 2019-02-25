@@ -4,8 +4,9 @@
 
 .photo-overlay {
 	opacity: 0;
-	transition-property: opacity;
-	transition-duration: .5s;
+	/*transition-property: opacity;
+	transition-duration: .5s;*/
+	transition: opacity .5s;
 }
 .photo-overlay:hover {
 	opacity: 1;
@@ -17,9 +18,11 @@
 
 .button {
 	opacity: 0;
-	transition-property: opacity, background, box-shadow;
+	/*transition-property: opacity, background, box-shadow;
 	transition-duration: .5s;
-	transition-delay: .2s, .3s, 0;
+	transition-delay: .2s, .3s, 0;*/
+	transition: opacity .3s .2s, background .4s .3s, box-shadow .5s 0s;
+	transition-timing-function: ease-out;
 }
 
 .button:hover {
@@ -29,4 +32,17 @@
 
 .photo-overlay:hover .button {
 	opacity: 1;
+}
+
+.btn-icon {
+	/*transition-property: opacity, left;
+	transition-duration: .5s;
+	transition-delay: .3s;
+	transition-timing-function: ease-in-out, ease-out;*/
+	transition: opacity .5s ease-in-out .3s, left .5s ease-out .3s;
+}
+
+.button:hover .btn-icon {
+	opacity: 1;
+	left: 80%;
 }
