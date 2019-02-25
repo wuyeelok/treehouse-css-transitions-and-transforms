@@ -35,10 +35,11 @@
 }
 
 .btn-icon {
-	transition-property: opacity, left;
+	/*transition-property: opacity, left;
 	transition-duration: .5s;
 	transition-delay: .3s;
-	transition-timing-function: ease-in-out, ease-out;
+	transition-timing-function: ease-in-out, ease-out;*/
+	transition: opacity .5s ease-in-out .3s, left .5s ease-out .3s;
 }
 
 .button:hover .btn-icon {
