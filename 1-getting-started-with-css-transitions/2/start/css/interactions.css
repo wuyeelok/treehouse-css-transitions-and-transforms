@@ -5,8 +5,8 @@
 .button {
   color: #4a89ca;
   border: 2px solid;
-  transition-duration: .4s;
-  transition-property: background;
+  transition-property: background, border-radius, color;
+  transition-duration: .4s, .8s, .4s;
 }
 
 .button:hover {
