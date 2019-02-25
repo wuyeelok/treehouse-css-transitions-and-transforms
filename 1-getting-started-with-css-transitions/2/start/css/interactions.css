@@ -24,7 +24,7 @@
 .photo-overlay {
   opacity: 0;
   transition-property: opacity;
-  transition-duration: 1s;
+  transition-duration: .5s;
 }
 
 .photo-overlay:hover {
