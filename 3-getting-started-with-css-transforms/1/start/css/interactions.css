@@ -28,9 +28,12 @@
 
 /* -- Row 1 --------- */
 img {
-	transform: rotate(-45deg);
+	transition: transform .5s ease-in-out .2s;
 }
 
+img:hover {
+	transform: rotate(-5deg);
+}
 
 /* -- Row 2 --------- */
 
@@ -42,6 +45,9 @@ img {
 
 /* -- Logo ---------- */
 
+.logo:hover {
+	transform: rotate(-20deg)
+}
 
 
 
