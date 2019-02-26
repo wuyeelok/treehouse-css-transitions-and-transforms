@@ -32,7 +32,7 @@ img {
 }
 
 img:hover {
-	transform: rotate(-5deg);
+	transform: skewY(10deg);
 }
 
 /* -- Row 2 --------- */
