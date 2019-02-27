@@ -15,6 +15,7 @@
 
 .content {
 	perspective: 700px;
+	perspective-origin: 50% 100%;
 }
 
 .photo {
