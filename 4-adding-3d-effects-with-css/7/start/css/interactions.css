@@ -38,3 +38,21 @@
 	display: block;
 	position: absolute;
 }
+
+.front {
+	transform: translateZ(110px);
+}
+
+.back {
+	transform: translateZ(-110px) rotateY(270deg);
+	transform-origin: center left;
+}
+
+.left {
+	transform: rotateY(-270deg) translateX(110px);
+	transform-origin: top right;
+}
+
+.right {
+	transform: translateZ(-110px) rotateY(180deg);
+}
