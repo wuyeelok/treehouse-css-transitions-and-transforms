@@ -13,3 +13,10 @@
   Photo 3D Transforms & Transitions
 ==================================== */
 
+.content {
+  perspective: 700px;
+}
+
+.photo {
+  transform: rotateX(-35deg);
+}
