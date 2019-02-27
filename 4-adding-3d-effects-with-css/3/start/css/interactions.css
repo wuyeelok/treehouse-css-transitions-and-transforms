@@ -18,5 +18,19 @@
 }
 
 .photo {
-	transform: rotateX(-35deg);
+	transition: transform 1s cubic-bezier(.55, -.62, .27, 1.2);
+	transform-style: preserve-3d;
+}
+
+.photo:hover {
+	transform: rotateX(-180deg);
+}
+
+.side-a,
+.side-b {
+	backface-visibility: hidden;
+}
+
+.side-b {
+	transform: rotateX(180deg);
 }
